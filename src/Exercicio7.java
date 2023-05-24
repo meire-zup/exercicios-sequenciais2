@@ -21,14 +21,14 @@ public class Exercicio7 {
         double taxaSindicato = 5;
         double descontoSindicato = salarioBruto * (taxaSindicato/100);
         double salarioLiquido = salarioBruto-descontoInss-descontoSindicato-descontoImpostoDeRenda;
-        System.out.println("-------------------------");
+        System.out.println("-------------------------------------");
         System.out.println("Relatório salarial");
         System.out.printf("Salário bruto: R$ %.2f\n",salarioBruto);
         System.out.printf("Desconto Imposto de renda: R$ %.2f\n",descontoImpostoDeRenda);
         System.out.printf("Desconto INSS: R$ %.2f\n",descontoInss);
         System.out.printf("Desconto Sindicato: R$ %.2f\n",descontoSindicato);
         System.out.printf("Salário líquido: R$ %.2f\n",salarioLiquido);
-        System.out.println("-------------------------");
+        System.out.println("-------------------------------------");
 
     }
     public static Double salarioBase(){
@@ -37,7 +37,7 @@ public class Exercicio7 {
         double valorDaHoraTrabalhada = scanner.nextDouble();
         System.out.println("Informe a quantidade de horas trabalhadas:");
         int quantidadeDeHorasTrabalhadas = scanner.nextInt();
-        double salarioTotal = valorDaHoraTrabalhada * quantidadeDeHorasTrabalhadas;
-        return salarioTotal;
+        return valorDaHoraTrabalhada * quantidadeDeHorasTrabalhadas;
+
     }
 }
