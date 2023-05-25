@@ -14,7 +14,6 @@ public class Exercicio2 {
         double nota3 = scanner.nextDouble();
         System.out.println("Informe a nota 4:");
         double nota4 = scanner.nextDouble();
-
         double media = (nota1+nota2+nota3+nota4)/4;
         System.out.printf("A sua média final é: %.2f",media);
 

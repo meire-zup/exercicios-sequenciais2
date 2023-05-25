@@ -12,9 +12,7 @@ public class Exercicio4 {
         double valorDaHoraTrabalhada = scanner.nextDouble();
         System.out.println("Informe a quantidade de horas trabalhadas:");
         int quantidadeDeHorasTrabalhadas = scanner.nextInt();
-
         double salarioTotal = valorDaHoraTrabalhada * quantidadeDeHorasTrabalhadas;
-        System.out.printf("O seu salário mensal é de R$ %.2f",salarioTotal);
-
+        System.out.printf("O seu salário mensal é R$ %,.2f",salarioTotal);
     }
 }

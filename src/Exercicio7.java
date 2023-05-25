@@ -23,11 +23,11 @@ public class Exercicio7 {
         double salarioLiquido = salarioBruto-descontoInss-descontoSindicato-descontoImpostoDeRenda;
         System.out.println("-------------------------------------");
         System.out.println("Relatório salarial");
-        System.out.printf("Salário bruto: R$ %.2f\n",salarioBruto);
+        System.out.printf("Salário bruto: R$ %,.2f %n",salarioBruto);
         System.out.printf("Desconto Imposto de renda: R$ %.2f\n",descontoImpostoDeRenda);
-        System.out.printf("Desconto INSS: R$ %.2f\n",descontoInss);
-        System.out.printf("Desconto Sindicato: R$ %.2f\n",descontoSindicato);
-        System.out.printf("Salário líquido: R$ %.2f\n",salarioLiquido);
+        System.out.printf("Desconto INSS: R$ %,.2f\n",descontoInss);
+        System.out.printf("Desconto Sindicato: R$ %,.2f\n",descontoSindicato);
+        System.out.printf("Salário líquido: R$ %,.2f\n",salarioLiquido);
         System.out.println("-------------------------------------");
 
     }
